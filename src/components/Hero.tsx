@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="hero w-full pb-20 pt-14 px-48">
       <div className="hero-container flex flex-row justify-center items-start gap-x-24">
         <div className="hero-text w-96">
-          <h2 className="text-6xl font-bold mb-5">
+          <h2 className="text-6xl font-semibold leading-tight mb-5">
             Discover Digital Art & Collect Nfts
           </h2>
           <p className="text-xl mb-5">
