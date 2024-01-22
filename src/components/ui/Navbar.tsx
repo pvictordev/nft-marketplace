@@ -1,3 +1,10 @@
 export default function Navbar() {
-  return <div></div>;
+  return (
+    <div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  );
 }
