@@ -1,5 +1,10 @@
-import React from "react";
-
 export default function Trending() {
-  return <div></div>;
+  return (
+    <div className="trending">
+      <div className="trending-title">
+        <h2>Trending Collection</h2>
+        <p>Checkout our weekly update</p>
+      </div>
+    </div>
+  );
 }

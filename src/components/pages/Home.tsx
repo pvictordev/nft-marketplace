@@ -5,11 +5,11 @@ import Trending from "../Trending";
 
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <Navbar />
       <Hero />
-      <Creators />
       <Trending />
+      <Creators />
     </div>
   );
 }
