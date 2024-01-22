@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Home />
-      <div className="text-accent">content</div>
     </>
   );
 }
