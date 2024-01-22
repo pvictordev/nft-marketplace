@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: { "space-mono": ["Space mono", "monospace"] },
+      fontFamily: { mono: ["Space mono", "monospace"] },
       colors: {
         accent: "#A259FF",
         secondary: "#858584",

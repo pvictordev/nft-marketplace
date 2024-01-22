@@ -1,13 +1,13 @@
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-logo">
+    <div className="navbar w-screen">
+      <div className="navbar-container flex justify-between p-8">
+        <div className="navbar-logo flex items-center gap-x-2 text-xl font-bold">
           <a href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="32"
+              height="32"
               viewBox="0 0 24 24"
               fill="none"
             >
@@ -43,9 +43,9 @@ export default function Navbar() {
               />
             </svg>
           </a>
-          <span>NFT Marketplace</span>
+          <span className="font-mono">NFT Marketplace</span>
         </div>
-        <ul className="navbar-menu">
+        <ul className="navbar-menu flex items-center gap-x-8 font-semibold">
           <li>
             <a href="#home">Marketplace</a>
           </li>
@@ -56,7 +56,7 @@ export default function Navbar() {
             <a href="#home">Connect a wallet</a>
           </li>
           <li>
-            <button className="button">
+            <button className="button flex items-center bg-accent px-6 py-3 rounded-xl gap-x-2 font-medium">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -85,3 +85,4 @@ export default function Navbar() {
     </div>
   );
 }
+/* NFT Marketplace */
