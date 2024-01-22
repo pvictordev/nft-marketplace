@@ -5,7 +5,9 @@ export default {
     extend: {
       fontFamily: { mono: ["Space mono", "monospace"] },
       colors: {
+        background: "#2B2B2B",
         accent: "#A259FF",
+        primary: "#FFFFFF",
         secondary: "#858584",
         card: "#3B3B3B",
       },

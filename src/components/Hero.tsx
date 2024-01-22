@@ -2,7 +2,7 @@ import heroGif from "../assets/hero-gif.gif";
 import Button from "./ui/Button";
 export default function Hero() {
   return (
-    <div className="hero w-full pb-20 pt-14 px-48">
+    <div className="hero w-full pb-20 pt-14 px-32">
       <div className="hero-container flex flex-row justify-center items-start gap-x-24">
         <div className="hero-text w-96">
           <h2 className="text-6xl font-semibold leading-tight mb-5">
@@ -28,7 +28,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <img src={heroGif} className="hero-gif w-2/5 h-1/3" />
+        <img src={heroGif} className="hero-gif w-2/6 h-1/3" />
       </div>
     </div>
   );
