@@ -2,8 +2,8 @@ import signup from "../../assets/signup.png";
 export default function SignUp() {
   return (
     <div className="signup">
-      <div className="signup-container flex items-center gap-x-14">
-        <img src={signup} alt="" />
+      <div className="signup-container flex items-center gap-x-14 max-md:flex-col">
+        <img src={signup} alt="" className="max-md:w-full max-md:mb-10" />
         <div className="signup-form">
           <div className="form-title mb-10 max-w-sm">
             <h1 className="text-5xl font-bold mb-5">Create Account</h1>
