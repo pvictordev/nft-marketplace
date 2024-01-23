@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Button() {
   return (
     <button className="button flex items-center bg-accent px-6 py-3 rounded-xl gap-x-2 font-medium">
@@ -21,7 +22,7 @@ export default function Button() {
           fill="white"
         />
       </svg>
-      <a href="">Sign Up</a>
+      <Link to={"signup"}>Sign Up</Link>
     </button>
   );
 }
