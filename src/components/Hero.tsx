@@ -5,8 +5,8 @@ export default function Hero() {
 
   return (
     <div className="hero w-full pb-20 pt-10">
-      <div className="hero-container flex flex-row justify-center items-start gap-x-24 max-lg:gap-12">
-        <div className="hero-text flex flex-col items-start gap-y-8">
+      <div className="hero-container flex flex-row justify-center items-start gap-x-24 max-lg:gap-12 max-md:flex-col max-md:items-center">
+        <div className="hero-text flex flex-col items-start gap-y-8 max-md:items-center">
           <h2 className="text-6xl font-semibold leading-tight max-lg:text-4xl">
             Discover Digital Art & Collect Nfts
           </h2>
@@ -15,7 +15,7 @@ export default function Hero() {
             Sell Art From More Than 20k Nft Artists.
           </p>
           <Button />
-          <div className="hero-statistics flex gap-x-12 max-lg:gap-6">
+          <div className="hero-statistics w-full justify-between flex gap-x-12 max-lg:gap-6">
             <div className="flex flex-col items-start">
               <span className="text-3xl font-bold font-mono max-lg:text-xl">
                 240k+

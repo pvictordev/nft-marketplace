@@ -13,7 +13,7 @@ export default function Creators() {
               Checkout Top Rated Creators On The Nft Marketplace
             </p>
           </div>
-          <Button />
+          <div className="max-md:hidden"><Button /></div>
         </div>
         <div className="creators-items grid grid-cols-4 gap-6 max-lg:grid-cols-2 max-md:grid-cols-1">
           <CardCreators user={keepitreal} />
