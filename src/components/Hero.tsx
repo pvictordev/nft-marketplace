@@ -1,6 +1,8 @@
 import heroGif from "../assets/hero-gif.gif";
 import Button from "./ui/Button";
+
 export default function Hero() {
+
   return (
     <div className="hero w-full pb-20 pt-10">
       <div className="hero-container flex flex-row justify-center items-start gap-x-24 max-lg:gap-12">
