@@ -4,8 +4,8 @@ import CardCreators from "./ui/CardCreators";
 
 export default function Creators() {
   return (
-    <div className="creators w-full py-20 px-20 flex justify-center">
-      <div className="creators-container max-w-6xl">
+    <div className="creators">
+      <div className="creators-container">
         <div className="creators-header flex justify-between gap-x-8 mb-14">
           <div className="creators-title">
             <h2 className="text-4xl font-semibold">Top Creators</h2>

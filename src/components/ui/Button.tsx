@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function Button() {
   return (
-    <button className="button flex items-center bg-accent px-6 py-3 rounded-xl gap-x-2 font-medium">
+    <button className="button inline-flex items-center bg-accent px-6 py-3 rounded-xl gap-x-2 font-medium">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"

@@ -10,9 +10,9 @@ import mrfox from "../assets/mrfox.png";
 
 export default function Trending() {
   return (
-    <div className="trending w-full py-20 px-32 flex justify-center">
-      <div className="trending-container flex flex-col items-start max-md:items-center">
-        <div className="trending-title mb-14 max-md:text-center">
+    <div className="trending w-full flex justify-center py-20">
+      <div className="trending-container flex flex-col items-start">
+        <div className="trending-title mb-14">
           <h2 className="text-4xl font-semibold">Trending Collection</h2>
           <p className="text-lg">
             Checkout Our Weekly Updated Trending Collection.

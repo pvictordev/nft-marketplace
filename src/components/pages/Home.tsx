@@ -4,7 +4,7 @@ import Trending from "../Trending";
 
 export default function Home() {
   return (
-    <div className="home flex flex-col items-center justify-center">
+    <div className="home max-w-5xl max-lg:max-w-2xl">
       <Hero />
       <Trending />
       <Creators />
